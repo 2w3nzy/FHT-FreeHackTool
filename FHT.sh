@@ -16,7 +16,7 @@
     lc='/data/data/com.termux/files/usr/bin/lolcat' 
     #lc='/usr/local/bin/lolcat' # gali linux için
     setdir=$PWD
-    version='bchacktool-termux V2.1'
+    version='FHT versiyon 0.1'
 
 # help
 if [[ $1 =~ ^(-h|--help|-y|--yardım) ]] ; then
@@ -25,8 +25,8 @@ if [[ $1 =~ ^(-h|--help|-y|--yardım) ]] ; then
     echo "----------------------------------------------------------"
     echo -e $cyan"    Create by           $white":" $red By2w3nzy"
     echo -e $cyan"    Github              $white":" $red https://github.com/By2w3nzy"
-    echo -e $cyan"    Instagram           $white":" $red @ÜlkücüHackTool"
-    echo -e "$cyan    Discord            $white : $red https://discord.io/by2w3nzy"
+    echo -e $cyan"    Instagram           $white":" $red Bulunamadı!"
+    echo -e "$cyan    Discord            $white : $red Bulunamadı!"
     exit 0
 elif [[ $1 =~ ^(-u|--update|-g|--güncelle) ]] ; then
     checkupdatepermission=$(ls -l update | awk '{print $1}') 
@@ -58,7 +58,7 @@ spinlong ()
 }
 
 function termload {
-    echo " Araç Yükleniyor! Lütfen bekleyin.. (çok uzun sürmeyecek)"
+    echo " Yükleniyor! (lütfen bekleyin"
 }
 
 function pressanykey {
@@ -77,7 +77,7 @@ function ok {
 if [[ -f chk ]] ; then
     ok
 else
-        echo -e "${lightcyan} Gerekli araçlar kuruluyor lütfen bekleyin.. (sabırlı olun)$tp"
+        echo -e "${lightcyan} Kuruluyor... (sabırlı olun)$tp"
             pkg update -y &> /dev/null
 			termload
 			pkg install ruby -y &> /dev/null
@@ -180,7 +180,7 @@ trap ctrl_c INT
 ctrl_c() {
 echo -e "\n"
 echo -e "[${blink}${yellow}*${tp}]$red (Ctrl + C ) Tespit Edildi Cikiliyor...$tp"
-echo -e "[${blink}${yellow}*${tp}]$blue BCHackTool Programini Tercih Ettiginiz Icin Tesekkurler  {ByChan} :)$tp"
+echo -e "[${blink}${yellow}*${tp}]$blue FHT Programini Tercih Ettiginiz Icin Tesekkurler  {ByChan} :)$tp"
 exit 0
 }
 
@@ -191,10 +191,10 @@ clear
 banner
 echo ""
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Create by           $white":" $red ByChan$tp ${blink}${lightgreen}                        |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Discord             $white":" $red https://discord.io/by2w3nzy$tp${blink}${lightgreen}      |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Github              $white":" $red https://github.com/By2w3nzy${blink}${lightgreen}     |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red ÜlkücüHackTool ${blink}${lightgreen}                  |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Create by           $white":" $red 2w3nzy$tp ${blink}${lightgreen}                        |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Discord             $white":" $red Bulunamadı! $tp${blink}${lightgreen}      |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Github              $white":" $red Bulunamadı! ${blink}${lightgreen}     |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red Bulunamadı! ${blink}${lightgreen}                  |$tp"
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp\n"
 echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo ""
