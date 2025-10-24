@@ -396,7 +396,7 @@ echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~"
                 clear
                 cat banners/bcbanner
                 echo -e $red " ~~~~~~~~~~~ Cam-Hackers İndirliyor ~~~~~~~~~~~~$tp"
-                git clone https://github.com/AngelSecurityTeam/Cam-Hackers > /dev/null 2>&1
+                git clone https://github.com/HARISHKUMAR023/camhack.git > /dev/null 2>&1
                 spinlong
                 cd Cam-Hackers
                 echo -e $red "~~~~~~~~~~~ Ek Bileşenler Kuruluyor ~~~~~~~~~~~~ "
