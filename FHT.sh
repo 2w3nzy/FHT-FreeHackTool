@@ -21,10 +21,10 @@
 # help
 if [[ $1 =~ ^(-h|--help|-y|--yardım) ]] ; then
     echo ""
-    echo -e "Default Kullanım İçin Dosyayı ${lightgreen}sudo bash bchacktool.sh$tp"
+    echo -e "Default Kullanım İçin Dosyayı ${lightgreen}sudo bash FHT.sh$tp"
     echo "----------------------------------------------------------"
     echo -e $cyan"    Create by           $white":" $red By2w3nzy"
-    echo -e $cyan"    Github              $white":" $red https://github.com/By2w3nzy"
+    echo -e $cyan"    Github              $white":" $red Bulunamadı! "
     echo -e $cyan"    Instagram           $white":" $red Bulunamadı!"
     echo -e "$cyan    Discord            $white : $red Bulunamadı!"
     exit 0
@@ -210,7 +210,7 @@ echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~"
         echo " [b] ✔ Random Banner Bastırır" 
         echo " [h] ✔ Help" 
         echo " [q] ✔ Exit"  
-        echo -ne "\n${red}┌─[${tp}${USER}${yellow}@${blue}ÜlkücüHackTool ${red}]─[${green}./bchacktool-termux.sh${red}] \n└──╼${yellow}$ ${tp}" ; read option
+        echo -ne "\n${red}┌─[${tp}${USER}${yellow}@${blue}FHT ${red}]─[${green}./FHT.sh${red}] \n└──╼${yellow}$ ${tp}" ; read option
         echo ""
     
         case "$option" in
@@ -348,7 +348,7 @@ echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~"
                 clear
                 cat banners/bcbanner
                 echo -e $red " ~~~~~~~~~~~ Ip-Tracer İndiriliyor ~~~~~~~~~~~~$tp"
-                git clone https://github.com/rajkumardusad/IP-Tracer > /dev/null 2>&1
+                git clone https://github.com/anonymousproo/IP-Tracker.git > /dev/null 2>&1
                 spinlong
                 cd IP-Tracer
                 chmod +x install
@@ -451,13 +451,13 @@ echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~"
             q) 
                 clear
                 cat banners/bcbanner
-                echo " BCHackTool Programini Tercih Ettiginiz Icin Tesekkurler {ByChan} !!" 
+                echo " FHT Programini Tercih Ettiginiz Icin Tesekkurler {2w3nzy} !!" 
                 echo ""
                 exit 0
                 ;;
         esac
 done
- BCHackTool Programini Tercih Ettiginiz Icin Tesekkurler {ByMB} !!" 
+ FHT Programini Tercih Ettiginiz Icin Tesekkurler {ByMB} !!" 
                 echo ""
                 exit 0
                 ;;
